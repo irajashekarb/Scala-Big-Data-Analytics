@@ -4,11 +4,7 @@
     <list default="true" id="62c8d839-e006-4d03-ab5e-131131e65066" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/standartscala/TempData.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/standartscala/TempData.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$$anonfun$main$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-2.11/classes/standartscala/TempData.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
