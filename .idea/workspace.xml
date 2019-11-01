@@ -56,13 +56,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PlotTemps">
+  <component name="RunManager" selected="Application.RDDTempData">
     <configuration name="PlotTemps" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="standartscala.PlotTemps" />
       <module name="Scala Spark Practice" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="standartscala.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RDDTempData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparkrdd.RDDTempData" />
+      <module name="Scala Spark Practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sparkrdd.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RDDTempData" />
         <item itemvalue="Application.PlotTemps" />
         <item itemvalue="Application.guiMain" />
         <item itemvalue="Application.TempData" />
