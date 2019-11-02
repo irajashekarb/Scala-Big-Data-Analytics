@@ -22,8 +22,9 @@ object RDDTempData {
           TempData.toDoubleOrNeg(p(5)), TempData.toDoubleOrNeg(p(6)), p(7).toDouble, p(8).toDouble,
           p(9).toDouble))
     }
-    //printing first five lines from our file
-    data.take(5) foreach(println)
-    println(data.count())
+
+    println(data.max()(Ordering.by(_.tmax)))
+
+    println(data.reduce((td1, td2) => if(td1.tmax == td2.tmax) td1 else td2))
   }
 }
