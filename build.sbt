@@ -2,15 +2,13 @@ name := "Scala Spark Practice"
 
 version := "0.1"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.11.8"
 
 version := "0.1.0-SNAPSHOT"
-
-libraryDependencies += "org.apache.spark" % "spark-core_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-sql_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-mllib_2.11" % "2.2.0"
-libraryDependencies += "org.apache.spark" % "spark-graphx_2.11" % "2.2.0"
+mainClass in Compile := Some("spardrdd.RDDTempData")
 libraryDependencies += "org.scalafx" %% "scalafx" % "12.0.2-R18"
+libraryDependencies += "org.apache.spark" %% "spark-core_2.11" % "2.2.0" % "provided"
+
 resolvers += Resolver.sonatypeRepo("snapshots")
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-Xcheckinit", "-encoding", "utf8", "-feature")

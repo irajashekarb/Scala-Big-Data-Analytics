@@ -145,13 +145,14 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3143120610077" />
-        <entry key="$PROJECT_DIR$/build.sbt" value="2976085752" />
+        <entry key="$PROJECT_DIR$" value="3143975081666" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="2085442418" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
       </map>
     </option>
     <option name="projectSyncType">
       <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/../../Scala/example/example" value="PREVIEW" />
         <entry key="$USER_HOME$/IdeaProjects/Example" value="PREVIEW" />
       </map>

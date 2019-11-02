@@ -6,14 +6,12 @@ object RDDTempData {
   def main(args: Array[String]): Unit = {
     //Creating configuration for our spark context
     val conf = new SparkConf().setAppName("Temp Data").setMaster("local[*]")
-    //Creating spark context with the configuration above
     val sc = new SparkContext(conf)
 
-    //Reading the lines from the file using textFile method on sc
+    //Loading lines using textFile method
     val lines = sc.textFile("MN212142_9392.csv")
 
-    //Taking first five lines and printing each line
+    //printing first five lines from our file
     lines.take(5) foreach(println)
-
   }
 }
