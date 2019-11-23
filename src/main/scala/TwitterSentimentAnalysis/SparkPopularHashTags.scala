@@ -2,6 +2,7 @@ package TwitterSentimentAnalysis
 
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.{SparkConf, SparkContext}
+import org.apache.spark.streaming.twitter4j._
 
 object SparkPopularHashTags {
   val conf = new SparkConf().setMaster("local[2]").setAppName("Spark Streaming - Popular Hashtags")
@@ -20,6 +21,6 @@ object SparkPopularHashTags {
 
     val ssc = new StreamingContext(sc, Seconds(5))
 
-    val stream = TwitterUtils.createStream
+    val stream = new TwitterUtils
   }
 }

@@ -9,6 +9,7 @@ mainClass in Compile := Some("spardrdd.RDDTempData")
 libraryDependencies += "org.scalafx" %% "scalafx" % "12.0.2-R18"
 libraryDependencies += "org.apache.spark" %% "spark-core_2.11" % "2.2.0" % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.4.4" % "provided"
+libraryDependencies +=   "org.twitter4j" % "twitter4j-core" % "3.0.3"
 
 resolvers += Resolver.sonatypeRepo("snapshots")
 
