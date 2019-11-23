@@ -7,7 +7,8 @@ scalaVersion := "2.11.8"
 version := "0.1.0-SNAPSHOT"
 mainClass in Compile := Some("spardrdd.RDDTempData")
 libraryDependencies += "org.scalafx" %% "scalafx" % "12.0.2-R18"
-  libraryDependencies += "org.apache.spark" %% "spark-core_2.11" % "2.2.0" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-core_2.11" % "2.2.0" % "provided"
+libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.4.4" % "provided"
 
 resolvers += Resolver.sonatypeRepo("snapshots")
 
