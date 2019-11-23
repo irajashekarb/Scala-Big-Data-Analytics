@@ -38,11 +38,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/swiftvis2_2.11-0.1.0-SNAPSHOT.jar!/" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jar_files/twitter4j-stream-4.0.4.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,7 +56,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCount">
+  <component name="RunManager" selected="Application.SparkPopularHashTags">
     <configuration name="PlotTemps" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="standartscala.PlotTemps" />
       <module name="Scala Spark Practice" />
@@ -83,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TempData" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="standartscala.TempData" />
+    <configuration name="SparkPopularHashTags" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="TwitterSentimentAnalysis.SparkPopularHashTags" />
       <module name="Scala Spark Practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="standartscala.*" />
+          <option name="PATTERN" value="TwitterSentimentAnalysis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SparkPopularHashTags" />
         <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.RDDTempData" />
         <item itemvalue="Application.PlotTemps" />
         <item itemvalue="Application.guiMain" />
-        <item itemvalue="Application.TempData" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +159,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3145909682116" />
+        <entry key="$PROJECT_DIR$" value="3145910334949" />
         <entry key="$PROJECT_DIR$/build.sbt" value="3559072368" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3724303870" />
       </map>
