@@ -10,13 +10,13 @@ object SparkPopularHashTags {
   def main(args: Array[String]): Unit = {
     sc.setLogLevel("WARN")
 
-    val Array(consumerKey, consumerSecret, accessToken, accessTokenSecret) = args.take(4)
+    val Array(dJTvoQO0jLCHKPKGKWun91Tk0 , gQ2910NqZZtoFrtKPioQba9iXZNaEOqPN8v7gCQivalUDsMvq4, o3Lrwu8GvPa5GG5yPLBt6uXu7aBLbqa6pt7Brfs, qTZRuYY2HphAkYZyaZUn8kU79GVsR0JC1aFCTWBlI4WCg) = args.take(4)
     val filters = args.takeRight(args.length - 4)
 
-    System.setProperty("twitter4j.oauth.consumerKey", consumerKey)
-    System.setProperty("twitter4j.oauth.consumerSecret", consumerSecret)
-    System.setProperty("twitter4j.oauth.accessToken", accessToken)
-    System.setProperty("twitter4j.oauth.accessTokenSecret", accessTokenSecret)
+    System.setProperty("twitter4j.oauth.consumerKey", dJTvoQO0jLCHKPKGKWun91Tk0)
+    System.setProperty("twitter4j.oauth.consumerSecret", gQ2910NqZZtoFrtKPioQba9iXZNaEOqPN8v7gCQivalUDsMvq4)
+    System.setProperty("twitter4j.oauth.accessToken", o3Lrwu8GvPa5GG5yPLBt6uXu7aBLbqa6pt7Brfs)
+    System.setProperty("twitter4j.oauth.accessTokenSecret", qTZRuYY2HphAkYZyaZUn8kU79GVsR0JC1aFCTWBlI4WCg)
 
     val ssc = new StreamingContext(sc, Seconds(5))
 
